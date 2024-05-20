@@ -226,7 +226,6 @@
         languages.current = lang;
       } else if (hasModule) {
         try {
-          console.log("try");
           require("./lang/" + lang);
           languages.current = lang;
         } catch (e) {
